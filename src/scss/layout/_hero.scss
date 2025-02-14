@@ -5,9 +5,10 @@
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: initial;
+    background-position: 85%;
     display: flex;
     align-items: flex-end;
+    justify-content: center;
 
     &__div {
         width: 35px;
