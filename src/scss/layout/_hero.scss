@@ -1,0 +1,52 @@
+@use "../core/variables" as vars;
+
+.hero {
+    background-image: url(/images/cover.jpeg);
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+
+    &__div {
+        width: 35px;
+        height: 35px;
+        background-color: vars.$color-secondary;
+
+        &__image {
+            object-fit: contain;
+            flex-grow: 0;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+      
+    }
+
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+
+    &__title1 {
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        flex-grow: 0;
+        color: vars.$color-main;
+        // text-align: center;
+    }     
+    
+}
+
+.title2 {
+        color: vars.$color-main;
+        // text-align: center;
+}
+
+
+
+
+
