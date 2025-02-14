@@ -1,0 +1,19 @@
+@use"../core/variables" as vars;
+
+h4 {
+    color: vars.$color-secondary;
+}
+
+.container-main {
+    margin: 25px;
+}
+
+.tittlesport {
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.shopping {
+    background-color: vars.$color-secondary;
+}

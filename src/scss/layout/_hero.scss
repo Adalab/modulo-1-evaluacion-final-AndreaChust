@@ -3,9 +3,11 @@
 .hero {
     background-image: url(/images/cover.jpeg);
     height: 100vh;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position:initial;
+    background-position: initial;
+    display: flex;
+    align-items: flex-end;
 
     &__div {
         width: 35px;
@@ -24,8 +26,6 @@
 }
 
 .divflex {
-    display: flex;
-    align-content: flex-end;
 
     &__container {
         width: 100%;
@@ -52,6 +52,7 @@
         color: vars.$color-main;
         text-align: center;
 }
+
 
 
 
