@@ -1,0 +1,15 @@
+.divmenu {
+    background-color: grey;
+    justify-content: space-between;
+   
+    &__nav {
+        display: flex;
+        justify-content: center;
+   }
+    
+}
+
+.menunav {
+    display: flex;
+    justify-content: center;
+}

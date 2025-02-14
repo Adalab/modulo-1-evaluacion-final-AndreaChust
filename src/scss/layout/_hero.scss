@@ -3,9 +3,9 @@
 .hero {
     background-image: url(/images/cover.jpeg);
     height: 100vh;
-    background-size: 100%;
+    background-size:cover;
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position:initial;
 
     &__div {
         width: 35px;
@@ -23,27 +23,34 @@
 
 }
 
-.container {
-    display:flex;
-    flex-direction: column;
-    align-content: center;
+.divflex {
+    display: flex;
+    align-content: flex-end;
 
-    &__title1 {
-        font-size: 20px;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.67;
-        flex-grow: 0;
-        color: vars.$color-main;
-        // text-align: center;
-    }     
+    &__container {
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+    
+        &__title1 {
+            font-size: 20px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.67;
+            flex-grow: 0;
+            color: vars.$color-main;
+            display: flex; 
+            text-align: center;
+        }  
+}
+   
     
 }
 
 .title2 {
         color: vars.$color-main;
-        // text-align: center;
+        text-align: center;
 }
 
 
