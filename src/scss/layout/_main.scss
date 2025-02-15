@@ -1,19 +1,20 @@
 @use"../core/variables" as vars;
 
-h4 {
-    color: vars.$color-secondary;
-}
+.sport {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+    margin: 20px 20px 20px 20px;
 
-.container-main {
-    margin: 25px;
-}
+    &__tittle {
+        color: vars.$color-secondary;
+        font-size: 18px;
 
-.tittlesport {
-    font-size: 25px;
-    padding-bottom: 10px;
-    padding-top: 5px;
-}
+        &__big {
+            font-size: 28px;
+        }
+    }
 
-.shopping {
-    background-color: vars.$color-secondary;
 }
