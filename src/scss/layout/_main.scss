@@ -21,12 +21,23 @@
 
 .p-sport {
     font-size: 20px;
-    color: lightgrey
+    color: lightgrey;
+    padding-bottom: 40px;
 }
 
-.shopping {
-    border: solid vars.$color-secondary;
-    text-align: center;
-    color: vars.$color-secondary;
+.cont-shopping {
+    padding-bottom: 35px;
+
+    &__shopping {
+        border: solid vars.$color-secondary;
+        border-radius: 50px;
+        text-align: center;
+        color: vars.$color-secondary;
+        font-size: 25px;
+        padding: 15px;
+    }
+
 }
+
+
 

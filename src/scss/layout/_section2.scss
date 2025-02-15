@@ -1,7 +1,56 @@
+@use "../core/variables" as vars;
 .section2 {
-    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &__imgsect1 {
+            width: 250px;
+            border-radius: 50%;
+            }
+        }
+    }
+
+
+.boy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__imgsect2 {
+        width: 250px;
+        border-radius: 50%;
+    }
+
 }
 
-.imgsect2 {
-    width: 100%;
+.girl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__imgsect3 {
+        border-radius: 50%;
+        width: 250px;
+    }
+
+}
+
+.rectangle {
+    border: solid;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: vars.$color-secondary;
+
+    &__startnow {
+        border-radius: 50%;
+        background-color: vars.$color-secondary;
+        color: vars.$color-main;
+    }
 }
