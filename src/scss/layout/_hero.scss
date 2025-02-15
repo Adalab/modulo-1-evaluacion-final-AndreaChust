@@ -7,52 +7,29 @@
     background-repeat: no-repeat;
     background-position: 85%;
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    color: vars.$color-main;
+    gap: 30px;
+    padding-bottom: 50px;
 
-    &__div {
-        width: 35px;
-        height: 35px;
-        background-color: vars.$color-secondary;
-
-        &__image {
-            object-fit: contain;
-            flex-grow: 0;
-            padding-left: 10px;
-            padding-top: 10px;
-        }
-      
+    &__img {
+        background-color: vars.$color-main;
     }
-
 }
 
-.divflex {
-
-    &__container {
-        width: 100%;
-        display:flex;
-        flex-direction: column;
-    
-        &__title1 {
-            font-size: 20px;
-            font-weight: bold;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 1.67;
-            flex-grow: 0;
-            color: vars.$color-main;
-            display: flex; 
-            text-align: center;
-        }  
-}
-   
-    
+h1 {
+    font-size: 38px;
 }
 
-.title2 {
-        color: vars.$color-main;
-        text-align: center;
+p {
+    font-size: 20px;
 }
+
+
 
 
 
