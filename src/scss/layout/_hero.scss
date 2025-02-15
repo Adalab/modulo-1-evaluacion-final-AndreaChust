@@ -14,20 +14,26 @@
     padding: 30px;
     color: vars.$color-main;
     gap: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 
-    &__img {
-        background-color: vars.$color-main;
+    &__container {
+        
+        &__tittle {
+            font-size: 38px;
+        }
     }
 }
 
-h1 {
-    font-size: 38px;
-}
-
-p {
+.paragraph {
     font-size: 20px;
 }
+
+.hero_img {
+        background-color: vars.$color-main;
+        border: solid 5px white;
+}
+
+
 
 
 
