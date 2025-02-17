@@ -14,6 +14,9 @@ footer {
         justify-content: center;
         text-align: center;
         align-content: center;
+        @media (min-width: 1024px) {
+            height: 50vh;
+        }
     }
 }
  
