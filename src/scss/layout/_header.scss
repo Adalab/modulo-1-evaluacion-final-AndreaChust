@@ -3,4 +3,6 @@
 .header {
     position: fixed;
     background-color: vars.$color-secondary;
+    flex-grow: 0;
+    padding: 15px;
 }

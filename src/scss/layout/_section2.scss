@@ -1,18 +1,40 @@
 @use "../core/variables" as vars;
+
 .section2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #d9e4cc;
+    @media (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 
-    &__div {
+    &__tittlediv {
+        @media (min-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+    }
+
+  .bag-girl {
+        width: 150px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        @media (min-width: 768px) {
+            display: flex;
+            flex-direction: column;
+        }
 
         &__imgsect1 {
-            width: 250px;
+            width: 100%;
             border-radius: 50%;
             }
         }
@@ -20,25 +42,39 @@
 
 
 .boy {
+    width: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+     @media (min-width: 768px) {
+            display: flex;
+            flex-direction: column;
+        }
+
 
     &__imgsect2 {
-        width: 250px;
+        width: 100%;
         border-radius: 50%;
     }
 
 }
 
 .girl {
+    width: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    @media (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+    }
+    
 
     &__imgsect3 {
         border-radius: 50%;
-        width: 250px;
+        width: 100%;
     }
 
 }
@@ -48,6 +84,9 @@
     font-size: 20px;
     border-radius: 50%;
     background-color: vars.$color-secondary;
+    @media (min-width: 768px) {
+
+    }
 
     &__startnow {
         border-radius: 50%;

@@ -7,12 +7,23 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    @media (min-width: 768px) {
+        height: 30vh;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+    }
 }
  
 .menu {
 
     &__list {
         padding: 50px;
+        @media (min-width: 768px) {
+
+        }
 
     }
 }
@@ -20,4 +31,22 @@ footer {
 li {
     margin: 20px 15px 15px 20px;
     font-size: 18px;
+}
+
+.list-foot {
+    @media (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }
+}
+
+.copy {
+    @media (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
 }

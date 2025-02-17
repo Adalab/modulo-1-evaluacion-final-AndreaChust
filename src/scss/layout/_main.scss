@@ -7,13 +7,22 @@
     align-content: center;
     gap: 15px;
     margin: 20px 20px 20px 20px;
+    @media (min-width: 1024px) {
+        margin: 40px 40px 40px 40px;
+    }
 
     &__tittle {
         color: vars.$color-secondary;
         font-size: 18px;
+        @media (min-width: 768px) {
+            font-size: 30px;
+        }
 
         &__big {
             font-size: 28px;
+            @media (min-width: 768px) {
+                font-size: 56px;
+            }
         }
     }
 
@@ -23,6 +32,9 @@
     font-size: 20px;
     color: #4a4a4a;
     padding-bottom: 40px;
+    @media (min-width: 768px) {
+        font-size: 35px;
+    }
 }
 
 .cont-shopping {
@@ -35,6 +47,12 @@
         color: vars.$color-secondary;
         font-size: 25px;
         padding: 15px;
+        @media (min-width: 768px) {
+            font-size: 45px;
+        }
+        @media (min-width: 1024px) {
+            font-size: 35px;
+        }
     }
 
 }
