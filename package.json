@@ -26,5 +26,8 @@
 	},
 	"author": "Adalab",
 	"license": "MIT",
-	"homepage": "https://github.com/adalab/adalab-web-starter-kit"
+	"homepage": "https://github.com/adalab/adalab-web-starter-kit",
+	"dependencies": {
+		"svgo": "^3.3.2"
+	}
 }
