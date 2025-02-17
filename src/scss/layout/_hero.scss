@@ -1,0 +1,58 @@
+@use "../core/variables" as vars;
+
+.hero {
+    background-image: url(/images/cover.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    color: vars.$color-main;
+    gap: 30px;
+    padding-bottom: 100px;
+
+    @media (min-width: 768px) {
+        background-position: 55%;
+    }
+
+    &__container {
+        
+        &__tittle {
+            font-size: 38px;
+            @media (min-width: 768px) {
+                font-size: 100px;
+            }
+        }
+    }
+}
+
+.paragraph {
+    font-size: 20px;
+    @media (min-width: 768px) {
+        font-size: 35px;
+    }
+}
+
+.hero_img {
+        background-color: vars.$color-main;
+        border: solid 5px white;
+        border-radius: 10px;
+        width: 40px;
+        padding: 5px;
+   
+}
+
+
+
+
+
+
+
+
+
+
